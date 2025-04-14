@@ -140,14 +140,27 @@ h2{
 }
 
 h3{
-
-    font-size: 40px;
+    font-size: 30px;
     margin: 0%;
     color: #796813;
     text-decoration: underline;
 }
 
+.valoration{
 
+    margin: 0%;
+    width: 30%;
+    margin-left: 2%;
+    position: fixed;
+    top: 61%;
+    left: 58%;
+}
+
+.valoration > img{
+
+    width: 100%;
+
+}   
 
 /* Visit Us */
 
@@ -206,6 +219,8 @@ h3{
     position: fixed;
     left: 70%;
     top: 20%;
+    text-shadow: 3px 3px 3px white;
+    
 }
 
 .visit_header_content_vip > article{

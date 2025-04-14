@@ -53,7 +53,7 @@
                     <p>14</p>
                 </article>
             </article>
-            <article class="inf">
+            <article class="valoration">
                 <img src="../img/valoration.png" alt="No se ha podido cargar la imagen">
             </article>
 
