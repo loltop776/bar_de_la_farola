@@ -12,20 +12,50 @@
 
         <section class="header_content_image">
 
-            <img src="" alt="">
+            <img src="../img/background_header.png" alt="">
 
         </section>
 
         <section class="header_content_text">
 
-            <p>BIENVENID@ A</p>
-            <p>El bar de la <span class="farola">FAROLA<span></p>
+            <h1>BIENVENID@ AL</h1>
+            <h2>Bar de la <span class="farola">FAROLA<span></h2>
 
         </section>
 
         <section class="header_content_button">
 
-            <a href="../proc/proc_welcome.php">Test</a>
+            <a href="../proc/proc_welcome.php"><img src="../img/arrow_right.svg" alt="No se ha podido cargar la imagen"></a>
+
+        </section>
+
+        <section class="header_content_information">
+
+            <article class="inf">
+                <h3>Horario:</h3>
+                <article>
+                    <img src="../img/clock.svg" alt="No se ha podido cargar la imagen">
+                    <p>De 9:00 a 22:00</p>
+                </article>
+            </article>
+            <article class="inf">
+                <h3>Clientes Habituales:</h3>
+                <article>
+                    <img src="../img/user.svg" alt="No se ha podido cargar la imagen">
+                    <p>328</p>
+                </article>
+            </article>
+
+            <article class="inf">
+                <h3>Trabajadores:</h3>
+                <article>
+                    <img src="../img/worker.svg" alt="No se ha podido cargar la imagen">
+                    <p>14</p>
+                </article>
+            </article>
+            <article class="inf">
+                <img src="../img/valoration.png" alt="No se ha podido cargar la imagen">
+            </article>
 
         </section>
 
