@@ -25,7 +25,7 @@
 
         <section class="header_content_button">
 
-            <a href="../proc/proc_welcome.php"><img src="../img/arrow_right.svg" alt="No se ha podido cargar la imagen"></a>
+            <a href="../proc/proc_welcome.php"><img class="arrow" src="../img/arrow_right.svg" alt="No se ha podido cargar la imagen"></a>
 
         </section>
 

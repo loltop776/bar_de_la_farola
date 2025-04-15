@@ -80,8 +80,44 @@ h2{
     border-right: 2px solid white;
     border-bottom: 2px solid white;
     box-shadow: 3px 3px 16px white;
+    overflow: hidden;
+    transition: background 0.5s ease;
+    
 
 
+}
+
+.header_content_button:hover{
+
+    background: rgba(100, 0, 0, .03);
+
+}
+
+/* Prueba de animación de CSS */
+
+.arrow{
+
+    animation: scrolly 2s forwards infinite;
+    perspective: 9000px;
+    transform: translateZ(0);
+    transform-origin: right;
+
+}
+
+  
+@keyframes scrolly {
+    0% {
+      transform: translate3d(-50%,0,0) skewX(1deg);
+    }
+    30% {
+      transform: translate3d(0,0,0) skewX(0deg);
+    }
+    70% {
+      transform: translate3d(0,0,0) skewX(0deg);
+    }
+    100% {
+      transform: translate3d(80%,0,0);
+    }
 }
 
 .header_content_button > a > img{
@@ -152,8 +188,9 @@ h3{
     width: 30%;
     margin-left: 2%;
     position: fixed;
-    top: 61%;
+    top: 70%;
     left: 58%;
+
 }
 
 .valoration > img{
@@ -201,17 +238,21 @@ h3{
     margin-left: 10%;
     margin-top: 2%;
     position: fixed;
+    text-transform: uppercase;
+    cursor: pointer;
+    transition: background .8s ease;
+
+    /* Probando nuevos métodos de CSS */
+
+    &:hover{
+
+        background: rgba(100, 0, 0, .03);
+
+    }
 
 }
 
-.visit_header_content_letter > a:hover{
 
-    background-color: #796813;
-    font-size: 30px;
-    border: 2px solid white;
-    box-shadow: 2px 2px 4px white;
-    margin-left: 9%;
-}
 
 /* VIP */
 .visit_header_content_vip{
