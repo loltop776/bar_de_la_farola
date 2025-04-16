@@ -122,8 +122,8 @@ if(isset($_SESSION['welcome']) && $_SESSION['welcome'] != 'check'){
                             echo "</div>";
                             echo "<p>" . $starter->description . "</p>";
                             echo "<div class='plate_ajust'>";
-                                echo "<p class='cal'>" . $starter->calories . "</p>";
-                                echo "<p class='price'>" . $starter->price . "</p>";
+                                echo "<p class='cal'><strong>" . $starter->calories . "</strong></p>";
+                                echo "<p class='price'><strong>" . $starter->price . "</strong></p>";
                             echo "</div>";
                             echo "</article>"; 
                         }
@@ -162,8 +162,8 @@ if(isset($_SESSION['welcome']) && $_SESSION['welcome'] != 'check'){
                             echo "</div>";
                             echo "<p>" . $desserts->description . "</p>";
                             echo "<div class='plate_ajust'>";
-                                echo "<p class='cal'>" . $desserts->calories . "</p>";
-                                echo "<p class='price'>" . $desserts->price . "</p>";
+                                echo "<p class='cal'><strong>" . $desserts->calories . "</strong></p>";
+                                echo "<p class='price'><strong>" . $desserts->price . "</strong></p>";
                             echo "</div>";
                             echo "</article>"; 
                         }
@@ -211,8 +211,8 @@ if(isset($_SESSION['welcome']) && $_SESSION['welcome'] != 'check'){
                             echo "</div>";
                             echo "<p>" . $first_plate->description . "</p>";
                             echo "<div class='plate_ajust'>";
-                                echo "<p class='cal'>" . $first_plate->calories . "</p>";
-                                echo "<p class='price'>" . $first_plate->price . "</p>";
+                                echo "<p class='cal'><strong>" . $first_plate->calories . "</strong></p>";
+                                echo "<p class='price'><strong>" . $first_plate->price . "</strong></p>";
                             echo "</div>";
                             echo "</article>"; 
                         }
@@ -257,8 +257,8 @@ if(isset($_SESSION['welcome']) && $_SESSION['welcome'] != 'check'){
                             echo "</div>";
                             echo "<p>" . $second_plate->description . "</p>";
                             echo "<div class='plate_ajust'>";
-                                echo "<p class='cal'>" . $second_plate->calories . "</p>";
-                                echo "<p class='price'>" . $second_plate->price . "</p>";
+                                echo "<p class='cal'><strong>" . $second_plate->calories . "</strong></p>";
+                                echo "<p class='price'><strong>" . $second_plate->price . "</strong></p>";
                             echo "</div>";
                             echo "</article>"; 
                         }
