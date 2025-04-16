@@ -2,17 +2,167 @@
 
     <first first="first">
         <title>Sopa de pollo casera</title>
-        <price>12.50€</price>
-        <description>Sopa de la casa con un toque especial del chef.</description>
+        <price>9.50€</price>
+        <description>Puerro, zanahoria, cebolla y perejil.</description>
         <calories>174 kcal</calories>
         <carac>../img/chicken.svg</carac>
+    </first>
+
+    <first first="first">
+        <title>Salmorejo </title>
+        <price>7,90€</price>
+        <description>Tomate, dientes de ajo y aceite de hogaza.</description>
+        <calories>300 kcal</calories>
+        <carac>../img/grain.svg</carac>
+        <carac2>../chicken.svg</carac2>
+    </first>
+
+    <first first="first">
+        <title>Garbanzos con verduras</title>
+        <price>5,20€</price>
+        <description>Garbanzos, pimiento verde, cebolla, brocoli, tomate, pimiento rojo, puerro y pimienta negra.</description>
+        <calories>86 kcal</calories>
+        <carac>../img/seed.svg</carac>
+    </first>
+
+    <first first="first">
+        <title>Patatas con bechamel</title>
+        <price>6,99€</price>
+        <description>Patatas, jamón york, bacon, mantequilla, harina, orégano y queso rayado.</description>
+        <calories>4 kcal</calories>
+        <carac>../img/grain.svg</carac>
 
     </first>
 
-    <second>
-        <title>Segundo</title>
+    <first first="first">
+        <title>Ensalada</title>
+        <price>4,80€</price>
+        <description>Lechuga, tomate, aguacate, queso, pimienta, nueces y huevo duro.</description>
+        <calories>187 kcal</calories>
+        <carac>../img/seed.svg</carac>
+    </first>
+
+    <first first="first">
+        <title>Carpaccio de tomate</title>
+        <price>3,10€</price>
+        <description>Tomate, anchoa, cebolla, y tomillo.</description>
+        <calories>187 kcal</calories>
+        <carac>../img/seed.svg</carac>
+    </first>
+
+    <first first="first">
+        <title>Ensalada campera </title>
+        <price>5,90€</price>
+        <description>Patata, cebolleta, tomate, pimiento verde y rojo, huevo, atún, aceituna, vinagre, zumo de limón y perejil.</description>
+        <calories>249 kcal</calories>
+        <carac>../img/seed.svg</carac>
+    </first>
+
+    
+
+    <starter starter="starter">
+        <title>Gilda</title>
+        <price>3€</price>
+        <description>Aceitunas verdes sin hueso, piparras y filetes de anchoa.</description>
+        <calories>231 kcal</calories>
+        <carac>../img/fish.svg</carac>
+   </starter> 
+
+   <starter starter="starter">
+        <title>Empanadillas de Mozzarela</title>
+        <price>4,50€</price>
+        <description>Empanadilla, jamón cocido, mozzarela rallada, tomate, huevo y aceite en spray.</description>
+        <calories>298 kcal</calories>
+        <carac>../img/egg.svg</carac>
+   </starter>
+
+   <starter starter="starter">
+        <title>Croquetas de gambas al ajillo</title>
+        <price>3,99€</price>
+        <description>Gambas, dientes de ajo, leche, harina y caldo de pescado.</description>
+        <calories>298 kcal</calories>
+        <carac>../img/grain.svg</carac>
+   </starter>
+
+   <desserts desserts="desserts">
+        <title>Trufas de cava</title>
+        <price>2,10€</price>
+        <description>Chocolate, nata, mantequilla, cava y frambuesa.</description>
+        <calories>64 kcal</calories>
+        <carac>../img/ice.svg</carac>
+   </desserts>
+
+   <desserts desserts="desserts">
+        <title>Helado de chocolate</title>
+        <price>1,20€</price>
+        <description>Chocolate y galleta.</description>
+        <calories>216 kcal</calories>
+        <carac>../img/ice.svg</carac>
+   </desserts>
+
+   <desserts desserts="desserts">
+        <title>Tarta de chocolate</title>
+        <price>4€</price>
+        <description>Chocolate, galleta, mantequilla, leche y chocolate blanco.</description>
+        <calories>352 kcal</calories>
+        <carac>../img/ice.svg</carac>
+   </desserts>
+
+    <second second="second">
+        <title>Conejo al ajillo con champiñones</title>
+        <price>12,50€</price>
+        <description>Conejo, ajo, champiñones, vino blanco, perejil y pimienta.</description>
+        <calories>262 kcal</calories>
+        <carac>../img/chicken.svg</carac>
     </second>
 
+    <second second="second">
+        <title>Lomo de cerdo adobado</title>
+        <price>8€</price>
+        <description>Lomo de cerdo, pimentón dulce, orégano, ajo en polvo, vinagre y pimienta.</description>
+        <calories>117 kcal</calories>
+        <carac>../img/chicken.svg</carac>
+    </second>
+
+    <second second="second">
+        <title>Cachopo asturiano</title>
+        <price>9,99€</price>
+        <description>Filete de ternera, queso, jamón serrano, pimiento, harina, pan rallado, patatas fritas.</description>
+        <calories>80 kcal</calories>
+        <carac>../img/chicken.svg</carac>
+    </second>
+
+    <second second="second">
+        <title>Tortilla de patata</title>
+        <price>6€</price>
+        <description>Patata, cebolla y huevo.</description>
+        <calories>173 kcal</calories>
+        <carac>../img/egg.svg</carac>
+    </second>
+
+    <second second="second">
+        <title>Costillas de cerdo en salsa barbacoa</title>
+        <price>14,50€</price>
+        <description>Costilla de cerdo, pimienta, salsa de tomate, vinagre, azúcar, salsa de soja, mostaza y pimentón dulce.</description>
+        <calories>90 kcal</calories>
+        <carac>../img/chicken.svg</carac>
+    </second>
+
+    <second second="second">
+        <title>Paninis caseros</title>
+        <price>4,78€</price>
+        <description>Mozzarella, queso emmental, queso azul, atún, lochas de panceta, jamón york, chorizo, salchichas de frankfurt, orégano y alcaparras.</description>
+        <calories>317 kcal</calories>
+        <carac>../img/grain.svg</carac>
+    </second>
+
+    <second second="second">
+        <title>Arroz a la cazuela con calamares</title>
+        <price>4,78€</price>
+        <description>Calamares, setas, ajos, perejil, cebolla, tomate frito, arroz, y pimienta.</description>
+        <calories>458 kcal</calories>
+        <carac>../img/fish.svg</carac>
+    </second>
 
 
 </menu>

@@ -975,14 +975,118 @@ h3{
 }
 
 
+/* .nave1{
+
+    top: 300px;
+    left: 1000px;
+    width: 50px;
+    background-color: aliceblue;
+    position: fixed;
+    height: 5px;
+
+}
+
+.b_nave1{
+
+    top: 280px;
+    left: 1000px;
+    width: 5px;
+    background-color: aliceblue;
+    position: fixed;
+    height: 20px;
+
+
+} */
+
+
+
 
 
 /* Estructura Menú */
 
-.first_plate_content{
+.general_content{
+
+    width: 100%;
+    display: flex;
+}
+
+.plate_content{
 
     color: white;
-
+    width: 33%;
 
 }
 
+.plate_title > h2{
+
+    margin: 5%;
+    font-size: 50px;
+    color: #EECB25;
+    text-decoration: underline;
+    text-align: center;
+
+}
+
+.plate{
+
+    font-size: 15px;
+    padding: 2%;
+    text-align: justify;
+    transition: background 1s ease;
+    border-radius: 20px;
+    margin: 1%;
+
+}
+
+.plate > h4{
+
+    font-size: 20px;
+    width: 50%;
+
+}
+
+.plate > p{
+
+    padding: 0%;
+    margin: 0%;
+
+}
+
+.plate:hover{
+
+    background-color: #eecc2524;
+
+}
+
+.plate_ajust{
+
+    display: flex;
+    justify-content:space-between;
+
+}
+
+h4{
+
+    color: #796813;
+    font-size: 20px;
+
+}
+
+.price, .cal{
+
+    font-size: 20px;
+    color: red;
+
+}
+
+.plate_img{
+
+    width: 5%;
+
+}
+
+.cal{
+
+    color: green;
+
+}
