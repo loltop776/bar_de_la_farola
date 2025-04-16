@@ -1,0 +1,18 @@
+<menu>
+
+    <first first="first">
+        <title>Sopa de pollo casera</title>
+        <price>12.50€</price>
+        <description>Sopa de la casa con un toque especial del chef.</description>
+        <calories>174 kcal</calories>
+        <carac>../img/chicken.svg</carac>
+
+    </first>
+
+    <second>
+        <title>Segundo</title>
+    </second>
+
+
+
+</menu>

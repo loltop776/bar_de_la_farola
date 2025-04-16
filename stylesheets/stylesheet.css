@@ -278,3 +278,711 @@ h3{
     border: 2px solid black;
 
 }
+
+
+
+
+
+
+/* Fondo de la carta */
+
+/* Hago el estilo del cuadrado, lo giro y le añado la animación, cada cuadrado contendrá unos segundos de animación diferentes */
+
+.square1{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 20px;
+    left: 40px;
+    transform: rotate(45deg);
+    animation: back 2s ease infinite;
+
+}
+
+.square2{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 57px;
+    left: 150px;
+    transform: rotate(45deg);
+    animation: back 5s ease infinite;
+
+}
+
+.square3{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 39px;
+    left: 300px;
+    transform: rotate(45deg);
+    animation: back 3s ease infinite;
+
+}
+
+
+.square4{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 19px;
+    left: 500px;
+    transform: rotate(45deg);
+    animation: back 4s ease infinite;
+
+}
+
+.square5{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 69px;
+    left: 700px;
+    transform: rotate(45deg);
+    animation: back 7s ease infinite;
+
+}
+
+.square6{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 54px;
+    left: 900px;
+    transform: rotate(45deg);
+    animation: back 3s ease infinite;
+
+}
+
+.square7{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 89px;
+    left: 1200px;
+    transform: rotate(45deg);
+    animation: back 10s ease infinite;
+
+}
+
+.square8{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 34px;
+    left: 1400px;
+    transform: rotate(45deg);
+    animation: back 6s ease infinite;
+
+}
+
+.square9{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 190px;
+    left: 67px;
+    transform: rotate(45deg);
+    animation: back 6s ease infinite;
+
+}
+
+.square10{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 180px;
+    left: 199px;
+    transform: rotate(45deg);
+    animation: back 2.5s ease infinite;
+
+}
+
+.square11{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 210px;
+    left: 340px;
+    transform: rotate(45deg);
+    animation: back 10.5s ease infinite;
+
+}
+
+.square12{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 180px;
+    left: 580px;
+    transform: rotate(45deg);
+    animation: back 5s ease infinite;
+
+}
+
+.square13{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 220px;
+    left: 820px;
+    transform: rotate(45deg);
+    animation: back 5s ease infinite;
+
+}
+
+.square14{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 200px;
+    left: 840px;
+    transform: rotate(45deg);
+    animation: back 8s ease infinite;
+
+}
+
+.square15{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 160px;
+    left: 1040px;
+    transform: rotate(45deg);
+    animation: back 3.4s ease infinite;
+}
+
+.square16{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 200px;
+    left: 1240px;
+    transform: rotate(45deg);
+    animation: back 9s ease infinite;
+
+}
+
+.square17{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 120px;
+    left: 1340px;
+    transform: rotate(45deg);
+    animation: back 3s ease infinite;
+
+}
+
+.square18{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 250px;
+    left: 140px;
+    transform: rotate(45deg);
+    animation: back 1.5s ease infinite;
+
+}
+
+.square19{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 340px;
+    left: 290px;
+    transform: rotate(45deg);
+    animation: back 3s ease infinite;
+
+}
+
+.square20{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 300px;
+    left: 490px;
+    transform: rotate(45deg);
+    animation: back 6s ease infinite;
+
+}
+
+.square21{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 282px;
+    left: 690px;
+    transform: rotate(45deg);
+    animation: back 4.5s ease infinite;
+
+}
+
+.square22{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 322px;
+    left: 800px;
+    transform: rotate(45deg);
+    animation: back 8s ease infinite;
+
+}
+
+.square23{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 242px;
+    left: 950px;
+    transform: rotate(45deg);
+    animation: back 3s ease infinite;
+
+}
+
+.square24{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 272px;
+    left: 1150px;
+    transform: rotate(45deg);
+    animation: back 7.5s ease infinite;
+
+}
+
+.square25{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 302px;
+    left: 1450px;
+    transform: rotate(45deg);
+    animation: back 2s ease infinite;
+
+}
+
+.square26{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 412px;
+    left: 40px;
+    transform: rotate(45deg);
+    animation: back 8s ease infinite;
+
+}
+
+.square27{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 442px;
+    left: 180px;
+    transform: rotate(45deg);
+    animation: back 4s ease infinite;
+
+}
+
+.square28{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 402px;
+    left: 400px;
+    transform: rotate(45deg);
+    animation: back 2s ease infinite;
+
+}
+.square29{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 382px;
+    left: 600px;
+    transform: rotate(45deg);
+    animation: back 6.5s ease infinite;
+
+}
+
+.square30{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 395px;
+    left: 1000px;
+    transform: rotate(45deg);
+    animation: back 6.5s ease infinite;
+
+}
+
+.square31{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 365px;
+    left: 1300px;
+    transform: rotate(45deg);
+    animation: back 10.5s ease infinite;
+
+}
+
+.square32{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 555px;
+    left: 90px;
+    transform: rotate(45deg);
+    animation: back 5.25s ease infinite;
+
+}
+
+.square33{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 505px;
+    left: 290px;
+    transform: rotate(45deg);
+    animation: back 9s ease infinite;
+
+}
+
+.square34{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 495px;
+    left: 500px;
+    transform: rotate(45deg);
+    animation: back 2.5s ease infinite;
+
+}
+
+.square35{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 455px;
+    left: 700px;
+    transform: rotate(45deg);
+    animation: back 7s ease infinite;
+
+}
+
+.square36{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 505px;
+    left: 900px;
+    transform: rotate(45deg);
+    animation: back 3.5s ease infinite;
+
+}
+
+.square37{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 440px;
+    left: 1150px;
+    transform: rotate(45deg);
+    animation: back 8s ease infinite;
+
+}
+
+.square38{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 440px;
+    left: 1350px;
+    transform: rotate(45deg);
+    animation: back 4s ease infinite;
+
+}
+
+.square39{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 640px;
+    left: 50px;
+    transform: rotate(45deg);
+    animation: back 14s ease infinite;
+
+}
+
+.square40{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 540px;
+    left: 220px;
+    transform: rotate(45deg);
+    animation: back 4.7s ease infinite;
+
+}
+
+.square41{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 690px;
+    left: 200px;
+    transform: rotate(45deg);
+    animation: back 8s ease infinite;
+
+}
+
+.square42{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 590px;
+    left: 400px;
+    transform: rotate(45deg);
+    animation: back 3s ease infinite;
+
+}
+
+.square43{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 610px;
+    left: 600px;
+    transform: rotate(45deg);
+    animation: back 13s ease infinite;
+
+}
+
+.square44{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 560px;
+    left: 800px;
+    transform: rotate(45deg);
+    animation: back 3s ease infinite;
+
+}
+
+.square45{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 590px;
+    left: 1000px;
+    transform: rotate(45deg);
+    animation: back 8s ease infinite;
+
+}
+
+.square46{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 560px;
+    left: 1200px;
+    transform: rotate(45deg);
+    animation: back 4s ease infinite;
+
+}
+
+.square47{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 540px;
+    left: 1450px;
+    transform: rotate(45deg);
+    animation: back 3s ease infinite;
+
+}
+
+.square48{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 670px;
+    left: 480px;
+    transform: rotate(45deg);
+    animation: back 10s ease infinite;
+
+}
+
+.square49{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 670px;
+    left: 880px;
+    transform: rotate(45deg);
+    animation: back 3s ease infinite;
+
+}
+
+.square50{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 630px;
+    left: 1100px;
+    transform: rotate(45deg);
+    animation: back 9.8s ease infinite;
+
+}
+
+.square51{
+
+    background-color: rgba(255, 255, 255, 0.4);
+    width: 10px;
+    height: 10px;
+    position: fixed;
+    top: 630px;
+    left: 1350px;
+    transform: rotate(45deg);
+    animation: back 15s ease infinite;
+
+}
+
+/* Animación del cuadrado */
+
+@keyframes back {
+    
+    0%{
+        opacity: 0;
+    }
+
+    50%{
+
+        opacity: 1;
+
+    }
+
+    100%{
+
+        opacity: 0;
+
+    }
+
+    
+
+}
+
+
+
+
+/* Estructura Menú */
+
+.first_plate_content{
+
+    color: white;
+
+
+}
+
