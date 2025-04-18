@@ -15,6 +15,7 @@ if(isset($_SESSION['welcome']) && $_SESSION['welcome'] != 'check'){
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>VIP</title>
     <link rel="stylesheet" href="../stylesheets/stylesheet.css">
+    <link rel="icon" href="../img/icon.ico">
 </head>
 <body>
 
