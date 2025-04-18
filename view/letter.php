@@ -273,6 +273,7 @@ if(isset($_SESSION['welcome']) && $_SESSION['welcome'] != 'check'){
 
     </section>
     
+    <section class="return"><a href="./visit_us.php"><img src="../img/arrow_right.svg" alt="No se ha podido cargar la imagen"></a></section>
 
 
 </body>

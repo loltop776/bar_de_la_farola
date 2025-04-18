@@ -10,6 +10,13 @@ body{
 
 }
 
+.construction{
+
+    width: 100%;
+    height: 100vh;
+
+}
+
 header{
 
     background-color: black;
@@ -200,6 +207,20 @@ h3{
 }   
 
 /* Visit Us */
+
+.header_content_image_introduction > img{
+
+    width: 100%;
+    height: 100vh;
+
+}
+
+.header_content_image_introduction{
+
+    position: fixed;
+    width: 100%;
+
+}
 
 .visit_header_content_letter{
 
@@ -1054,7 +1075,7 @@ h3{
 
 .plate:hover{
 
-    background-color: #eecc2524;
+    background-color: #eecc2545;
 
 }
 
@@ -1088,5 +1109,269 @@ h4{
 .cal{
 
     color: green;
+
+}
+
+
+.return{
+
+    width: 60px;
+    position: fixed;
+    top: 15px;
+    left: 35px;
+    transform: rotate(180deg);
+    padding-left: 6px;
+    padding-right: 6px;
+    transition: all 1s ease;
+    
+}
+
+.return:hover{
+
+    border: 1px solid white;
+    box-shadow: 2px 2px 4px white;
+
+}
+
+
+
+
+
+/* Hay un problema y es que las media queries en las páginas principales no las puedo hacer. */
+/* Ya que el fondo está partido y no puedo hacer que se divida una parte debajo de otra, */
+/* así que las dos primeras páginas no podré implementarlo adecuadamente. */
+/* He implementado el mismo fondo pero con la diferencia de que no se puede ajustar a medida. */
+/* Es una solución sin tener que reajustar la página html. */
+
+/* Posible solución:
+
+    <section> -> Que englobe  todo.
+
+        <section> -> Para el lateral izquierdo del documento.
+
+            <img src="enlace primera imagen">
+
+            <section> -> Contenido.
+
+            </section>
+
+        </section>
+    
+        <section> -> Para el lateral derecho del documento.
+
+            <img src="enlace segunda imagen">
+
+            <section> -> Contenido.
+
+            </section>
+
+        </section>
+    
+    </section>
+
+*/
+
+/* Para hacer esta solución tendría que cambiar las imágenes e implementarlos. */
+/* He escogido la solución de poner un background-image y quitar la imagen principal. */
+/* Es una solución cutre pero rápida. */
+
+@media (max-width: 700px){ /* Configurado de 700px x 700px */
+
+    .header_content_text{
+
+        left: 20%;
+        top: 10%;
+    
+    }
+
+    h1{
+
+        font-size: 40px;
+    
+    }
+    
+    h2{
+    
+        font-size: 50px;
+    
+    }
+
+    .header_content_button{
+
+        width: 40%;
+        left: 30%;
+        top: 50%;
+    
+    }
+
+    .header_content_image > img{
+
+        visibility: hidden;
+
+    }
+
+    .header_content_image{
+
+        background-image: url(../img/background_header.png);
+
+    }
+
+    .header_content_information{
+
+        width: 80%;
+        left: 10%;
+        top: 65%;
+        height: 30vh;
+        display: flex;
+        
+    }
+
+    .inf{
+
+        width: 33%;
+        margin: 3%;
+    
+    }
+
+    
+    .inf > article > img{
+    
+        width: 20%;
+    
+    }
+    
+    .inf > article > p{
+    
+        width: 100%;
+        font-size: 15px;
+    
+    }
+    
+    h3{
+        font-size: 20px;
+    }
+    
+    .valoration{
+    
+        width: 50%;
+        top: 83%;
+        left: 23%;
+    
+    }
+    
+    .valoration > img{
+    
+        width: 100%;
+    
+    }
+
+
+
+
+    /* Visit us */
+
+    .header_content_image_introduction > img{
+
+        visibility: hidden;
+
+    }
+
+    .header_content_image_introduction{
+
+        background-image: url(../img/background_visit_us.png);
+
+    }
+
+    .visit_header_content_letter{
+
+        width: 100%;
+        top: 10%;
+        left: 13%;
+    
+    }
+    
+    .visit_header_content_letter > h2{
+    
+        font-size: 50px;
+    
+    }
+    
+    .visit_header_content_letter > article{
+    
+        width: 78%;
+        font-size: 20px;
+    
+    }
+    
+    .visit_header_content_letter > a{
+    
+        font-size: 30px;
+        padding-left: 5%;
+        padding-right: 5%;
+        margin-left: 21%;
+    
+    }
+
+    /* VIP */
+    .visit_header_content_vip{
+
+        left: 45%;
+        top: 55%;
+        
+    }
+
+    .visit_header_content_vip > article{
+
+        left: 10%;
+        width: 80%;
+        font-size: 18px;
+        top: 74%;
+        text-align: center;
+        
+
+    }
+
+
+
+    /* Carta */
+
+    .general_content{
+
+        width: 100%;
+        display: block;
+    }
+    
+    .plate_content{
+    
+        width: 100%;
+    
+    }
+    
+    .plate_title > h2{
+    
+        font-size: 60px;
+    
+    }
+    
+    .plate{
+    
+        font-size: 18px;
+    
+    }
+    
+    .plate > h4{
+    
+        font-size: 25px;
+    
+    }
+    
+    .price, .cal{
+    
+        font-size: 25px;
+    
+    }
+    
+
+
 
 }

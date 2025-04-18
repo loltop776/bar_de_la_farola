@@ -20,7 +20,7 @@ if(isset($_SESSION['welcome']) && $_SESSION['welcome'] != 'check'){
     
     <header>
 
-        <section class="header_content_image">
+        <section class="header_content_image_introduction">
 
             <img src="../img/background_visit_us.png" alt="No se ha podido cargar la imagen">
         
@@ -51,6 +51,8 @@ if(isset($_SESSION['welcome']) && $_SESSION['welcome'] != 'check'){
 
     </header>
 
+    
+    <section class="return"><a href="./welcome.php"><img src="../img/arrow_right.svg" alt="No se ha podido cargar la imagen"></a></section>
 
 
 </body>
